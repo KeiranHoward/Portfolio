@@ -16,6 +16,7 @@ header {
     width: 100vw;
     display: flex;
     background-color: #F4F5F7;
+    position: fixed;
 }
 
 header img {
@@ -51,4 +52,12 @@ header img {
 
 .nav-link a:hover {
     font-size: 1.6rem;
+}
+
+.about-section {
+    height: 100vh;
+    width: 100vw;
+    background-image: url('./images/2.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
