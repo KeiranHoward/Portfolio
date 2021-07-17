@@ -78,11 +78,11 @@ header img {
     margin-right: 100px;
     display: flex;
     flex-direction: column;
-    padding: 10px;
+    
 }
 
 .about-me p {
-    font-size: 1.5rem;
+    font-size: 1rem;
     justify-self: center;
     align-self: center;
     padding: 10px;
@@ -91,6 +91,7 @@ header img {
 .about-me h3 {
     font-size: 2rem;
     align-self: center;
+    justify-self: center;
 }
 
 .icons a{
@@ -135,7 +136,7 @@ header img {
     color: #1DA1F2;
   }
   .icons a.linkedin i{
-    color: #E1306C;
+    color: #1874ad;
   }
   .icons a.git i{
     color: #333;
