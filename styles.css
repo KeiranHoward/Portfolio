@@ -50,12 +50,12 @@ header img {
 .nav-link a {
     text-decoration: none;
     list-style-type: none;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: black;
 }
 
 .nav-link a:hover {
-    font-size: 1.6rem;
+    font-size: 1.3rem;
 }
 
 .about-section {
@@ -73,8 +73,8 @@ header img {
 .about-me {
     width: 50vw;
     height: 60vh;
-    border-color: black;
-    border-style: outset;
+    /* border-color: black;
+    border-style: outset; */
     margin-right: 100px;
     display: flex;
     flex-direction: column;
@@ -83,12 +83,17 @@ header img {
 
 .about-me p {
     font-size: 1rem;
-    justify-self: center;
+    justify-self: flex-start;
     align-self: center;
     padding: 10px;
 }
 
-.about-me h3 {
+.skills{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.skills h3 {
     font-size: 2rem;
     align-self: center;
     justify-content: center;
