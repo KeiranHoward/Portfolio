@@ -9,6 +9,7 @@ section{
     background-image: url('./images/home.svg');
     background-repeat: no-repeat;
     background-size: cover;
+    overflow: hidden;
     height: 100vh;
     width: 100vw;
 }
@@ -18,6 +19,7 @@ header {
     display: flex;
     background-color: #F4F5F7;
     position: fixed;
+    overflow: hidden;
 }
 
 header img {
@@ -33,6 +35,7 @@ header img {
     display: flex;
     margin-left: 100px;
     background: transparent;
+    overflow: hidden;
 }
 
 .nav-links {
@@ -64,6 +67,7 @@ header img {
     background-image: url('./images/about.svg');
     background-repeat: no-repeat;
     background-size: cover;
+    overflow: hidden;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -160,6 +164,7 @@ header img {
     background-image: url('./images/projects.svg');
     background-repeat: no-repeat;
     background-size: cover;
+    overflow: hidden;
     display: flex;
    
 }
@@ -168,6 +173,7 @@ header img {
     background-image: url('./images/contact.svg');
     background-repeat: no-repeat;
     background-size: cover;
+    overflow: hidden;
     height: 100vh;
     width: 100vw;
 }
